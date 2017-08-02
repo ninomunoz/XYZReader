@@ -31,7 +31,6 @@ public class ArticleDetailActivity extends AppCompatActivity
     private Cursor mCursor;
     private ViewPager mPager;
     private MyPagerAdapter mPagerAdapter;
-    private Toolbar mToolbar;
     private long mStartId;
 
     @Override
@@ -40,8 +39,8 @@ public class ArticleDetailActivity extends AppCompatActivity
 
         setContentView(R.layout.activity_article_detail);
 
-        mToolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(mToolbar);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
