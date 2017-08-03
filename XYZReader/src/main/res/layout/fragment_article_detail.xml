@@ -9,7 +9,6 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <!--suppress AndroidLintContentDescription -->
         <ImageView
             android:id="@+id/photo"
             android:layout_width="match_parent"
